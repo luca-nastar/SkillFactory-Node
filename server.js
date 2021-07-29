@@ -21,7 +21,7 @@ app.get('/text',(req, res)=>{
 
 app.post('/greetings',(req,res)=>{
     const {name} = req.body;
-    res.json(`Buenos dias, ${name}!`)
+    res.json(`Buenos dias ${name}!`)
 })
 
 module.exports = app;
